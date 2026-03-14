@@ -1,6 +1,6 @@
 name = "Marjorie"
 age = 39
-favorite_aws_service = "AWS Amlify"
+favorite_aws_service = "AWS Amplify"
 
 # Calculate future age
 age_in_five_years = age + 5

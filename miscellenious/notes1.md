@@ -9,3 +9,8 @@ Important python Libraries for a DevOps include:
 4. pyyaml: used to read yaml files used in k8s, docker compose, CICD pipelines.
 5. paramiko: used to automate ssh connections to servers.
 6. docker: used to interact with docker using python.
+
+Programming Language
+Libraries
+Frameworks
+Runtimes
