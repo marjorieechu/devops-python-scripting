@@ -1,6 +1,6 @@
 # Python Scripting 14/21-Day Guideline
 
-Start on Friday, March 14, 2026. At 1.5 hours/day, that gives you 21 focused hours, which is enough to get very solid at Python scripting if you stay practical.
+Start on Saturday, March 14, 2026. At 1.5 hours/day, that gives you 21 focused hours, which is enough to get very solid at Python scripting if you stay practical.
 
 ## Approach
 

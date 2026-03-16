@@ -14,3 +14,39 @@ Programming Language
 Libraries
 Frameworks
 Runtimes
+
+# count
+count = 5
+
+while count >= 1:
+    print(count)
+    count -= 1
+How it works
+
+count = 5 → start the counter at 5
+while count >= 1 → the loop continues as long as count is 1 or greater
+print(count) → prints the current value
+count -= 1 → decreases the counter by 1 each time
+
+
+for number in range(1, 11):
+    if number % 2 == 0:
+        print(f"{number} is even")
+Output
+2 is even
+4 is even
+6 is even
+8 is even
+10 is even
+
+The loop checks each number from 1 to 10, and the if statement filters only even numbers.
+
+✅ Summary
+if number % 2 == 0: means:
+divide the number by 2
+check if the remainder is 0
+if yes → the number is even
+
+💡 Quick trick programmers use:
+number % 2 == 0 → even number
+number % 2 != 0 → odd number
