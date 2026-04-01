@@ -136,6 +136,10 @@ tasks.append("verify health check")
 for task in tasks:
     print(task)
 ```
+check logs
+restart service
+deploy update
+verify health check
 
 ## What To Understand Before Moving On
 
