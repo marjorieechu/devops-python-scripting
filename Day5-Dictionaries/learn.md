@@ -50,7 +50,7 @@ person = {
 
 Each entry has:
 
-- a key
+- a key (used as part of a structured data like a dictionary, JSON, YAML OR API)
 - a value
 
 In `"name": "Ada"`, the key is `"name"` and the value is `"Ada"`.
@@ -135,16 +135,17 @@ server = {
 print(server["name"])
 print(server.get("status"))
 print(server["metrics"]["cpu"])
+print(server.get("metrics").get("cpu"))
 ```
 
 ## What To Understand Before Moving On
 
 You should be able to explain:
 
-- what a dictionary is
-- the difference between a key and a value
-- when to use `.get()`
-- why nested dictionaries are useful
+- what a dictionary is. A dictionary is a structured data where each data has a name
+- the difference between a key and a value. A key is part of a structured data. A value is other part of a key entry.
+- when to use `.get()` Use get to safely read a value and to add a default value( if value is empty).
+- why nested dictionaries are useful. create a dictionary inside another dictionary.
 
 ## Common Mistakes
 

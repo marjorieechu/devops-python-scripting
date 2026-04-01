@@ -1,6 +1,8 @@
-tasks = ["check logs", "restart service", "deploy update"]
-
-tasks.append("verify health check")
-
-for task in tasks:
-    print(task)
+person = {
+    "name": "Ada",
+    "contact": {
+        "email": "ada@example.com",
+        "phone": "08000000000",
+    }
+}
+print(person.get("contact").get("email"))
