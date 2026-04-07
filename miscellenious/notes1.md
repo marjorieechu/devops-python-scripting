@@ -50,3 +50,6 @@ if yes → the number is even
 💡 Quick trick programmers use:
 number % 2 == 0 → even number
 number % 2 != 0 → odd number
+
+# Abishek Python for DevOps
+https://www.youtube.com/watch?v=H21U4jX_SLQ&list=PLdpzxOOAlwvKwTyYNJCUwGPvql0TrsPgv

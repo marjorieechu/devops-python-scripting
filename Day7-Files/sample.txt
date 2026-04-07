@@ -1,0 +1,3 @@
+Python scripting is getting easier with practice.
+Files help scripts save information.
+JSON is useful for structured data.
