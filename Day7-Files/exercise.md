@@ -14,13 +14,13 @@ Your script should:
 
 ## Stretch
 
-- save a dictionary to `data.json`
+- save a dictionary to `person.json`
 - read it back and print it
 
 ## Questions
 
 When you finish, answer:
 
-1. When should you use `"r"` instead of `"w"`?
-2. Why is JSON useful in scripts?
-3. What does `with open(...)` help you do?
+1. When should you use `"r"` instead of `"w"`? when you just want to read the file not write to it.
+2. Why is JSON useful in scripts? To create and store structured data, and to send data btw systems.
+3. What does `with open(...)` help you do?to open the file and close it after actions.
