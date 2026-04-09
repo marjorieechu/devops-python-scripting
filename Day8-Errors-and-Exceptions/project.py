@@ -11,3 +11,12 @@ Requirements:
 
 
 # Write your code below.
+try:
+    num1 = int(input("Enter your first number: "))
+    num2 = int(input("Enter your second number: "))
+    result = num1 / num2
+    print(result)
+except ValueError:
+    print("Invalid input, please enter valid numbers: ")
+except ZeroDivisionError:
+    print("cannot divide by zero, please enter a non-zero second number: ")
