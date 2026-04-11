@@ -72,9 +72,10 @@ json → store structured data
 store data,
 send data between systems (especially APIs).
 
-10. `import json` allows your Python script to work with JSON data.Python does not understand JSON operations by default. So you import the json module to use tools like: json.dump, json.load
+10. `import json` allows your Python script to work with JSON data.Python does not understand JSON operations by default. So you import the `json module` to use tools like: `json.dump`, `json.load`
 
 11. `note = input("Enter your note: ")` gets user input
 `with open("notes.txt", "a") as file`
 `"a"` saves the input note to a file
 `file.write(note + "\n")` saves note on a new line.
+`print("\n---")` print in a new line followed by `---`
