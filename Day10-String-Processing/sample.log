@@ -1,0 +1,5 @@
+INFO Server started
+INFO User logged in
+ERROR Could not connect to database
+INFO Retrying connection
+ERROR Timeout while waiting for response
