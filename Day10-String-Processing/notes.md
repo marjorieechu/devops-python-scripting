@@ -5,5 +5,5 @@
 - 
 
 ## My Notes
-
+`print(len(words))` print number of items in `words`
 - 

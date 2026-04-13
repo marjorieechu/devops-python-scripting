@@ -10,3 +10,12 @@ Requirements:
 
 
 # Write your code below.
+from pathlib import Path
+
+folder_path = Path(".")
+for item in folder_path.iterdir():
+    if item.is_file() and item.suffix == ".log":
+        with open(item, "r") as file:
+            lines = file.readlines()
+            error_count = lines.count("ERROR")
+            info_count = lines.count("INFO")
