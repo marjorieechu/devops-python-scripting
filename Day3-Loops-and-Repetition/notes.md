@@ -12,7 +12,7 @@ What I learned:
 - 2, 11, 2 means 2 to 10 moving in 2s
 - A while loop will continue the sequence untill a condition becomes false.
 - A count is a variable that counts the number of times an action occurs in a program. It is the variable that counts.
-- Lines after every loop should be inted as well as lines after a condition.
+- Lines after every loop should be indented as well as lines after a condition.
 
 What I built:
 - A deployment timer script and server list with even number IDs

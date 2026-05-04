@@ -131,3 +131,63 @@ elif hour >= 12 and hour < 18:
     print("Afternoon")
 else:
     print("Night")
+
+### `else`
+password = "admin123"
+if password == "admin123":
+    print("Correct")
+else:
+    print("wrong")
+
+number = 7
+if number % 2 == 0:
+    print("Even")
+else:
+    print("Odd")
+
+##Booleans
+is_admin = True
+print(is_admin)
+
+has_access = False
+print(has_access)
+
+###comparison Operator
+print(5 == 5)
+print(9 != 3)
+
+#Day 3: Loops
+for numbers in range(1,6):
+    print(numbers)
+    
+for i in range(3):
+    print("Marjorie")
+
+###while loop
+numbers = 1
+while numbers <= 5:
+    print(numbers)
+    numbers += 1
+
+numbers = 5
+while numbers >= 1:
+    print(numbers)
+    numbers -= 1
+
+## Range
+for numbers in range(5):
+    print(numbers)
+
+for numbers in range(1,6):
+    print(numbers)
+
+##count
+count = 1
+while count <= 5:
+    print(count)
+    count += 1
+
+count = 5
+while count >= 1:
+    print(count)
+    count -= 1
