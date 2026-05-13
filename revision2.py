@@ -71,3 +71,45 @@ print(greet("Hello"))
 def name(my_name):
     return f"My name is {my_name}"
 print(name("Marjorie Echu"))
+
+
+#Pararmeters
+def greet(name):
+    return f"Greetings, {name}!"
+print(greet("Marjorie"))
+
+def tool(tool_name):
+    return f"Tool name is {tool_name}"
+print(tool("Terraform"))
+
+# Return value
+def add(num1, num2):
+    return num1 + num2
+print(add(2, 5))
+
+def name(full_name):
+    return f"Full name is {full_name}"
+print(name("Marjorie Echu"))
+
+with open("user.txt", "r") as file:
+    content = file.read()
+    print(content)
+
+with open("user.txt", "w") as file:
+    file.write("Hello, World!")
+with open("user.txt", "r") as file:
+    print(file.read())
+
+import json
+person = {"name": "Marjorie Echu", 
+          "age": 40, 
+          "city": "Porth-harcourt"}
+with open("person.json", "w") as file:
+    json.dump(person, file)
+
+## Errors and Exceptions
+try:
+    age = int(input("Enter your age: "))
+    print(age)
+except ValueError:
+    print("Please enter a valid whole number.")

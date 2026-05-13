@@ -1,3 +1,5 @@
-def deploy(service):
-    return f"{service} deployed successfully"
-print(deploy("auth-service"))
+try:
+    age = int(input("Enter your age: "))
+    print(age)
+except ValueError:
+    print("Please enter a valid whole number.")
